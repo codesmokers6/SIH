@@ -1,0 +1,68 @@
+body
+{
+	background: url(images.jpg) no-repeat center center fixed;
+	display: flex;
+	justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+
+h1
+{
+	font-family: 'Kelly Slab', cursive;
+}
+
+.container
+{
+
+	margin-top: 50px;
+	border: none;
+	padding: 10px 0px 50px 0px;
+	height: 70%;
+	width: 50%; 
+	border-radius: 10px;
+	background: rgba(255,255,255,0.7);
+	display: flex;
+	justify-content: center;
+}
+
+.box
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 500px;
+}
+
+.mess
+{
+	font-size: 25px;
+	border: none;
+	border-radius: 10px;
+	background: rgba(149, 165, 166,0.8)
+}
+
+.input_box
+{
+	margin-right: 10px;
+	padding-left: 320px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.input_box:focus
+{
+	outline:none;
+}
+
+.btn
+{
+	float: right;
+	margin-top: 10px;	
+}
+
+
+ul
+{
+	text-decoration: none;
+	list-style: none;
+}
